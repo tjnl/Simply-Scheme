@@ -6,7 +6,7 @@
 
 (define (find-triples position)
   (every (lambda (comb) (substitute-triple comb position))
-         '(123 456 789 147 258 369 1245 2356 4578 5689 159 357)))
+         '(123 456 789 147 258 369 159 357)))
 
 (define (substitute-triple combination position)
   (accumulate word
